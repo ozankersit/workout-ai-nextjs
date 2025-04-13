@@ -1,4 +1,4 @@
-import WorkoutForm from "@/components/workout-form/workout-form";
+// import WorkoutForm from "@/components/workout-form/workout-form";
 
 export default function Home() {
   return (
@@ -11,9 +11,9 @@ export default function Home() {
           <p className="mt-4 text-lg text-gray-600">Fill in your details and get a workout plan tailored just for you!</p>
         </div>
 
-        <div className="bg-white shadow-lg rounded-lg p-6 md:p-8">
+        {/* <div className="bg-white shadow-lg rounded-lg p-6 md:p-8">
           <WorkoutForm />
-        </div>
+        </div> */}
       </div>
     </div>
   );
