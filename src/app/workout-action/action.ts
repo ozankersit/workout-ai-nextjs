@@ -45,7 +45,7 @@ export async function generateWorkoutPlan(formData: FormData) {
     const goals = validatedFields.data.goals
     const limitations = validatedFields.data.limitations
 
-    const response = await fetch(`${process.env.NEXT_PUBLIC_APP_URL || ""}/api/generate-workout`, {
+    const response = await fetch(`${process.env.LOCAL_APP_URL || ""}/api/generate-workout`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

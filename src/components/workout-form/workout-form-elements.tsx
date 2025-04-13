@@ -134,7 +134,7 @@ export default function WorkoutFormElements({
         <Textarea
           id="limitations"
           name="limitations"
-          placeholder="Herhangi bir sağlık sorununuz veya fiziksel kısıtlamanız var mı? (Diz problemi, sırt ağrısı vb.)"
+          placeholder="Do you have any health issues or physical limitations? (e.g., knee problems, back pain, etc.)"
           className="resize-none"
         />
         <p className="text-sm text-gray-500">
